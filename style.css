@@ -1,31 +1,250 @@
-.header-css{
+/* StudentProtfolio.html file css */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: "Google Sans Regular";
+    box-sizing: border-box;
+}
+
+header{
     width: 100%;
-    margin: 0 auto;
-    background: #55d6aa;
+    background: rgba(0, 0, 0, 0.845);
+    border-radius:5px;
+    
+}
+.main-css{
+    width: 100%;
+    height: 650px;
 }
 .logo{
     width: 50px;
     border-radius: 50%;
     margin:5px;
     float: left;
-    margin-right: 25px;
+    
+    
 }
+
+footer{
+    width: 100%;
+    border-radius: 10px;
+    height: 70px;
+    padding-top: 10px;
+    background-color: rgba(0, 0, 0, 0.355);
+    
+}
+.footer-content{
+    padding-top: 10px;
+}
+.copyright{
+    text-decoration: underline;
+}
+
+.icon{
+    width: 25px;
+    padding: 0.2%;
+    padding-left: .1%;
+    
+}
+
 header::after{
     content: '';
     display: table;
-    clear: left;
+    clear: both;
 }
 nav{
     float: right;
+    /* height: 80px; */
 }
 nav ul{
-    margin: 0;
+    /* margin: 0;
     padding: 0;
-    list-style: none;
+    list-style: none; */
+    display: flex;
 }
-nav li{
+nav ul li{
     display: inline-block;
-    margin-left: 40px;
-    margin-right: 10px;
-    padding-top: 25px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    /* padding-top: 25px; */
+    font-family: 'Montserrat',sans-serif;
+    padding-top: 11px;
+    
+}
+nav ul li a{
+    display: block;
+    color: white;
+    
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 5px;
+    padding: 10px 25px;
+}
+
+ul li a:hover{
+    color: black;
+    background: white;
+}
+li a:not(:hover){  
+    color: white;
+}
+
+
+.i1:hover{
+    display: inline-block;
+   width: 25px;
+   height: 25px;
+   background-image:url("/r-linkedin-logo.png");
+    background-size: 25px 25px;
+    margin-right: 4px;
+ 
+}
+.i1:not(:hover){
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image:url("/linkedin-logo.png");
+    background-size: 25px 25px;
+    margin-right: 4px;
+}
+
+.i2:hover{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image:url("/r-instagram.png");
+    background-size: 25px 25px;
+    margin-right: 4px;
+}
+.i2:not(:hover){
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image:url("/instagram.png");
+    background-size: 25px 25px;
+    margin-right: 4px;
+}
+ .i3:hover{ 
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image:url("/r-contact.png");
+    background-size: 25px 25px;
+    margin-right: 4px;
+   
+ }
+ .i3:not(:hover){
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image:url("/contact.png");
+    background-size: 25px 25px;
+    margin-right: 4px;
+}
+
+.i4:hover{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image:url("/r-github.png");
+    background-size: 25px 25px;
+    margin-right: 4px;
+}
+.i4:not(:hover){
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image:url("/github.png");
+    background-size: 25px 25px;
+    margin-right: 4px;
+}
+
+
+/* index.html files css */
+.bodyAll{
+    background-image: linear-gradient(-90deg,rgb(193, 193, 255),white,rgb(255, 191, 255));
+    /* background-image: url("background2.jpg"); */
+ }
+ 
+ #myPhoto {
+     border-radius: 50%;
+     width: 120px;
+     border: 5px solid rgb(255, 129, 83);
+ }
+
+ #headlines {
+     color: rgb(98, 0, 255);
+     font-size: large;
+ }
+
+ .block1 {
+     box-sizing: border-box;
+     width: 240px;
+     border-radius: 8px;
+     padding: 15px;
+     padding-right: 20px;
+     display: flex;
+     overflow-x: scroll;
+     background-color: aliceblue;
+     scroll-snap-type: x mandatory;
+     
+     /* background: fixed rgb(255, 206, 122); */
+     background-image: linear-gradient(-90deg,rgb(167, 167, 255),white,rgb(255, 167, 255));
+    
+     scroll-padding: 24px;
+     gap: 15px;
+
+ }
+
+ .block2 {
+     box-sizing: border-box;
+     width: 240px;
+     border-radius: 8px;
+     padding: 15px;
+     display: flex;
+     /* overflow-x: scroll; */
+     background-color: aliceblue;
+     /* background: fixed rgb(255, 206, 122); */
+     background-image: linear-gradient(-90deg,rgb(167, 167, 255),white,rgb(255, 167, 255));
+    
+     gap: 15px;
+
+ }
+
+
+ .block1 .items1 {
+     flex: 0 0 85%;
+     color: white;
+     width: 180;
+     padding: 24px;
+     border-radius: 12px;
+     scroll-snap-align: start;
+     background-image: linear-gradient(180deg, blue, rgb(0, 234, 255));
+
+ }
+
+ .block2 .items2 {
+     flex: 0 0 85%;
+     width: 180;
+     color: white;
+     padding: 24px;
+     border-radius: 12px;
+     padding-right: 25px;
+     background-image: linear-gradient(180deg, rgb(0, 255, 115), rgb(0, 255, 123), rgb(1, 82, 9));
+
+ }
+
+ .block1 .items3 {
+     flex: 0 0 85%;
+     width: 180;
+     color: white;
+     padding: 24px;
+     border-radius: 12px;
+     scroll-snap-align: start;
+     background-image: linear-gradient(180deg, blue, rgb(255, 1, 43));
+
+ }
+.linksUnder{
+    color: blanchedalmond;
 }
