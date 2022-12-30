@@ -94,7 +94,7 @@ li a:not(:hover){
     display: inline-block;
    width: 25px;
    height: 25px;
-   background-image:url("/r-linkedin-logo.png");
+   background-image:url("res/linkedin-logo.png");
     background-size: 25px 25px;
     margin-right: 4px;
  
@@ -112,7 +112,7 @@ li a:not(:hover){
     display: inline-block;
    width: 25px;
    height: 25px;
-   background-image:url("/r-linkedin-logo.png");
+   background-image:url("res/r-linkedin-logo.png");
     background-size: 25px 25px;
     margin-right: 4px;
  
@@ -121,7 +121,7 @@ li a:not(:hover){
     display: inline-block;
     width: 25px;
     height: 25px;
-    background-image:url("/linkedin-logo.png");
+    background-image:url("res/linkedin-logo.png");
     background-size: 25px 25px;
     margin-right: 4px;
 }
@@ -130,7 +130,7 @@ li a:not(:hover){
     display: inline-block;
     width: 25px;
     height: 25px;
-    background-image:url("/r-instagram.png");
+    background-image:url("res/r-instagram.png");
     background-size: 25px 25px;
     margin-right: 4px;
 }
@@ -138,7 +138,7 @@ li a:not(:hover){
     display: inline-block;
     width: 25px;
     height: 25px;
-    background-image:url("/instagram.png");
+    background-image:url("res/instagram.png");
     background-size: 25px 25px;
     margin-right: 4px;
 }
@@ -146,7 +146,7 @@ li a:not(:hover){
     display: inline-block;
     width: 25px;
     height: 25px;
-    background-image:url("/r-contact.png");
+    background-image:url("res/r-contact.png");
     background-size: 25px 25px;
     margin-right: 4px;
    
@@ -155,7 +155,7 @@ li a:not(:hover){
     display: inline-block;
     width: 25px;
     height: 25px;
-    background-image:url("/r-contact.png");
+    background-image:url("res/r-contact.png");
     background-size: 25px 25px;
     margin-right: 4px;
    
@@ -164,7 +164,7 @@ li a:not(:hover){
     display: inline-block;
     width: 25px;
     height: 25px;
-    background-image:url("/contact.png");
+    background-image:url("res/contact.png");
     background-size: 25px 25px;
     margin-right: 4px;
 }
@@ -172,7 +172,7 @@ li a:not(:hover){
     display: inline-block;
     width: 25px;
     height: 25px;
-    background-image:url("/r-github.png");
+    background-image:url("res/r-github.png");
     background-size: 25px 25px;
     margin-right: 4px;
 }
@@ -180,7 +180,7 @@ li a:not(:hover){
     display: inline-block;
     width: 25px;
     height: 25px;
-    background-image:url("/r-github.png");
+    background-image:url("res/r-github.png");
     background-size: 25px 25px;
     margin-right: 4px;
 }
@@ -188,7 +188,7 @@ li a:not(:hover){
     display: inline-block;
     width: 25px;
     height: 25px;
-    background-image:url("/github.png");
+    background-image:url("res/github.png");
     background-size: 25px 25px;
     margin-right: 4px;
 }
