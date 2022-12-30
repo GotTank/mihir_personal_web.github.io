@@ -90,7 +90,24 @@ li a:not(:hover){
     color: white;
 }
 
-
+.i1{
+    display: inline-block;
+   width: 25px;
+   height: 25px;
+   background-image:url("/r-linkedin-logo.png");
+    background-size: 25px 25px;
+    margin-right: 4px;
+ 
+}
+.i2{
+    display: inline-block;
+   width: 25px;
+   height: 25px;
+   background-image:url("/r-instagram.png");
+    background-size: 25px 25px;
+    margin-right: 4px;
+ 
+}
 .i1:hover{
     display: inline-block;
    width: 25px;
@@ -125,6 +142,15 @@ li a:not(:hover){
     background-size: 25px 25px;
     margin-right: 4px;
 }
+.i3{ 
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image:url("/r-contact.png");
+    background-size: 25px 25px;
+    margin-right: 4px;
+   
+ }
  .i3:hover{ 
     display: inline-block;
     width: 25px;
@@ -142,7 +168,14 @@ li a:not(:hover){
     background-size: 25px 25px;
     margin-right: 4px;
 }
-
+.i4{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image:url("/r-github.png");
+    background-size: 25px 25px;
+    margin-right: 4px;
+}
 .i4:hover{
     display: inline-block;
     width: 25px;
