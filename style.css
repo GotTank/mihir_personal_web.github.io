@@ -1,37 +1,35 @@
 /* StudentProtfolio.html file css */
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: "Google Sans Regular";
-    box-sizing: border-box;
-}
+
 
 header{
     width: 100%;
     background: rgba(0, 0, 0, 0.845);
-    border-radius:5px;
+   
     
 }
-.main-css{
-    width: 100%;
-    height: 650px;
-}
+
 .logo{
     width: 50px;
     border-radius: 50%;
     margin:5px;
-    float: left;
+    float: right;
     
     
+}
+.logo2{
+    box-sizing: border-box;
+    height: 50px;
+    float: right;
+    margin-top: 5px;
 }
 
 footer{
     width: 100%;
-    border-radius: 10px;
+    bottom: 0;
     height: 70px;
     padding-top: 10px;
     background-color: rgba(0, 0, 0, 0.355);
+    
     
 }
 .footer-content{
@@ -47,16 +45,18 @@ footer{
     padding-left: .1%;
     
 }
+.backf1{
+ 
+width: 90%;
+    
+}
 
 header::after{
     content: '';
     display: table;
     clear: both;
 }
-nav{
-    float: right;
-    /* height: 80px; */
-}
+
 nav ul{
     /* margin: 0;
     padding: 0;
@@ -72,23 +72,8 @@ nav ul li{
     padding-top: 11px;
     
 }
-nav ul li a{
-    display: block;
-    color: white;
-    
-    border-radius: 50px;
-    transition: 0.2s;
-    margin: 0 5px;
-    padding: 10px 25px;
-}
 
-ul li a:hover{
-    color: black;
-    background: white;
-}
-li a:not(:hover){  
-    color: white;
-}
+
 
 .i1{
     display: inline-block;
@@ -195,10 +180,6 @@ li a:not(:hover){
 
 
 /* index.html files css */
-.bodyAll{
-    background-image: linear-gradient(-90deg,rgb(193, 193, 255),white,rgb(255, 191, 255));
-    /* background-image: url("background2.jpg"); */
- }
  
  #myPhoto {
      border-radius: 50%;
@@ -280,4 +261,154 @@ li a:not(:hover){
  }
 .linksUnder{
     color: blanchedalmond;
+}
+.menu1{
+    width: 25px;
+    
+}
+.dropbtn {
+    background-color: #b9b9b9;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer; 
+   
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+   
+  }
+  
+  .dropdown {
+    
+    width: 100%;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position:relative;
+    background-color: #00000000;
+   
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+  }
+  
+  .dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    position: static;
+    
+  }
+  .dropdown a:hover {background-color: rgb(96, 110, 107);}
+  .show {display: block;
+
+}
+/* index content */
+.h1-1{
+    color: #000000a8;
+    text-align: center;
+    
+}
+.h1-2{
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    width: 150px;
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+    background-color: rgb(252, 252, 252);
+    background-image: linear-gradient(45deg,indigo,blue);
+}
+.C_all{
+    width: 100%;
+    bottom: 0;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+   
+}
+.C1{
+    box-sizing: border-box;
+    width: 59%;
+   float: left;
+   font-size: large;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-indent: 50px;
+   line-height: 25px;
+   margin-right: 1%;
+   text-align: justify;
+ 
+    }
+.C2{
+    /* image project */
+    box-sizing: border-box;
+    width: 40%;
+    display: inline-block;
+    padding: 10px;
+    background-color: aliceblue;
+    background-image: url("res/project_img.jpg");
+    background-size:100% 100%;
+    height: 400px;
+    border-radius: 25px;
+}
+  .dropbtn2 {
+    color: white;
+    background-color: #b9b9b9;
+    padding: 16px;
+    font-size: large;
+    font-style: bold;
+    border: none;
+    border-radius: 7px;
+    background-image: linear-gradient(45deg,indigo,blue);
+    cursor: pointer; 
+   
+  }
+  
+  .dropbtn2:hover, .dropbtn2:focus {
+    background-image: linear-gradient(45deg,rgb(0, 123, 255),#3b3bfb);
+   
+  }
+  
+  .dropdown2 {
+    
+    width: 100%;
+    
+  }
+  
+  .dropdown-content-new {
+    display: none;
+    position:relative;
+    background-color: #91000000;
+   
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    
+  }
+  
+  .dropdown-content-new a {
+    color: rgb(255, 255, 255);  
+    background-image: linear-gradient(45deg,indigo,blue);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    position: static;
+    border-radius: 50px;
+    margin-top: 5px;
+    margin-right: 5px;
+    
+  }
+  .dropdown2 a:hover {
+    background-image: linear-gradient(45deg,rgb(0, 123, 255),#3b3bfb);
+    color: rgb(255, 255, 255);  }
+  .show {display: block;
+
 }
