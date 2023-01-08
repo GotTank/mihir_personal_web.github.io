@@ -316,7 +316,7 @@ nav ul li {
 }
 
 .wallpaper {
-    height: 500px;
+    height:fit-content;
     background-image: url("res/a2.jpg");
     background-size: 100% 100%;
 }
