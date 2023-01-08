@@ -316,7 +316,8 @@ nav ul li {
 }
 
 .wallpaper {
-    height:fit-content;
+    min-height: 500px;
+    max-height:fit-content;
     background-image: url("res/a2.jpg");
     background-size: 100% 100%;
 }
@@ -691,10 +692,10 @@ nav ul li {
 }
 
 .water {
-    background-image: url("res/water-backgroung.jfif");
+    background-image: url("res/water.png");
     width: 100%;
-    height: 200px;
-    margin-top: 10px;
+    height: 300px;
+    
 }
 
 /* ------------------------------------------------------------------------------------------------- */
