@@ -1,414 +1,730 @@
 /* StudentProtfolio.html file css */
 
 
-header{
+header {
     width: 100%;
     background: rgba(0, 0, 0, 0.845);
-   
-    
+
+
 }
 
-.logo{
+.logo {
     width: 50px;
     border-radius: 50%;
-    margin:5px;
+    margin: 5px;
     float: right;
-    
-    
+
+
 }
-.logo2{
+
+.center-logo {
+    width: 65px;
+    margin-top: 20px;
+    border-radius: 50%;
+    padding-top: 30px;
+
+
+
+}
+
+.logo2 {
     box-sizing: border-box;
     height: 50px;
     float: right;
     margin-top: 5px;
 }
 
-footer{
+footer {
     width: 100%;
     bottom: 0;
     height: 70px;
     padding-top: 10px;
     background-color: rgba(0, 0, 0, 0.355);
-    
-    
+
+
 }
-.footer-content{
+
+.footer-content {
     padding-top: 10px;
 }
-.copyright{
+
+.copyright {
     text-decoration: underline;
 }
 
-.icon{
+.icon {
     width: 25px;
     padding: 0.2%;
     padding-left: .1%;
-    
-}
-.backf1{
- 
-width: 90%;
-    
+
 }
 
-header::after{
+.backf1 {
+
+    width: 90%;
+
+}
+
+header::after {
     content: '';
     display: table;
     clear: both;
 }
 
-nav ul{
+nav ul {
     /* margin: 0;
     padding: 0;
     list-style: none; */
     display: flex;
 }
-nav ul li{
+
+nav ul li {
     display: inline-block;
     /* margin-left: 10px;
     margin-right: 10px; */
     /* padding-top: 25px; */
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding-top: 11px;
-    
+
 }
 
 
 
-.i1{
-    display: inline-block;
-   width: 25px;
-   height: 25px;
-   background-image:url("res/linkedin-logo.png");
-    background-size: 25px 25px;
-    margin-right: 4px;
- 
-}
-.i2{
-    display: inline-block;
-   width: 25px;
-   height: 25px;
-   background-image:url("/r-instagram.png");
-    background-size: 25px 25px;
-    margin-right: 4px;
- 
-}
-.i1:hover{
-    display: inline-block;
-   width: 25px;
-   height: 25px;
-   background-image:url("res/r-linkedin-logo.png");
-    background-size: 25px 25px;
-    margin-right: 4px;
- 
-}
-.i1:not(:hover){
+.i1 {
     display: inline-block;
     width: 25px;
     height: 25px;
-    background-image:url("res/linkedin-logo.png");
+    background-image: url("res/linkedin-logo.png");
+    background-size: 25px 25px;
+    margin-right: 4px;
+
+}
+
+.i2 {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url("/r-instagram.png");
+    background-size: 25px 25px;
+    margin-right: 4px;
+
+}
+
+.i1:hover {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url("res/r-linkedin-logo.png");
+    background-size: 25px 25px;
+    margin-right: 4px;
+
+}
+
+.i1:not(:hover) {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url("res/linkedin-logo.png");
     background-size: 25px 25px;
     margin-right: 4px;
 }
 
-.i2:hover{
+.i2:hover {
     display: inline-block;
     width: 25px;
     height: 25px;
-    background-image:url("res/r-instagram.png");
+    background-image: url("res/r-instagram.png");
     background-size: 25px 25px;
     margin-right: 4px;
 }
-.i2:not(:hover){
+
+.i2:not(:hover) {
     display: inline-block;
     width: 25px;
     height: 25px;
-    background-image:url("res/instagram.png");
+    background-image: url("res/instagram.png");
     background-size: 25px 25px;
     margin-right: 4px;
 }
-.i3{ 
+
+.i3 {
     display: inline-block;
     width: 25px;
     height: 25px;
-    background-image:url("res/r-contact.png");
+    background-image: url("res/r-contact.png");
     background-size: 25px 25px;
     margin-right: 4px;
-   
- }
- .i3:hover{ 
+
+}
+
+.i3:hover {
     display: inline-block;
     width: 25px;
     height: 25px;
-    background-image:url("res/r-contact.png");
+    background-image: url("res/r-contact.png");
     background-size: 25px 25px;
     margin-right: 4px;
-   
- }
- .i3:not(:hover){
+
+}
+
+.i3:not(:hover) {
     display: inline-block;
     width: 25px;
     height: 25px;
-    background-image:url("res/contact.png");
+    background-image: url("res/contact.png");
     background-size: 25px 25px;
     margin-right: 4px;
 }
-.i4{
+
+.i4 {
     display: inline-block;
     width: 25px;
     height: 25px;
-    background-image:url("res/r-github.png");
+    background-image: url("res/r-github.png");
     background-size: 25px 25px;
     margin-right: 4px;
 }
-.i4:hover{
+
+.i4:hover {
     display: inline-block;
     width: 25px;
     height: 25px;
-    background-image:url("res/r-github.png");
+    background-image: url("res/r-github.png");
     background-size: 25px 25px;
     margin-right: 4px;
 }
-.i4:not(:hover){
+
+.i4:not(:hover) {
     display: inline-block;
     width: 25px;
     height: 25px;
-    background-image:url("res/github.png");
+    background-image: url("res/github.png");
     background-size: 25px 25px;
     margin-right: 4px;
 }
 
 
 /* index.html files css */
- 
- #myPhoto {
-     border-radius: 50%;
-     width: 120px;
-     border: 5px solid rgb(255, 129, 83);
- }
 
- #headlines {
-     color: rgb(98, 0, 255);
-     font-size: large;
- }
+#myPhoto {
+    border-radius: 50%;
+    width: 120px;
+    border: 5px solid rgb(255, 129, 83);
+}
 
- .block1 {
-     box-sizing: border-box;
-     width: 240px;
-     border-radius: 8px;
-     padding: 15px;
-     padding-right: 20px;
-     display: flex;
-     overflow-x: scroll;
-     background-color: aliceblue;
-     scroll-snap-type: x mandatory;
-     
-     /* background: fixed rgb(255, 206, 122); */
-     background-image: linear-gradient(-90deg,rgb(167, 167, 255),white,rgb(255, 167, 255));
-    
-     scroll-padding: 24px;
-     gap: 15px;
+#headlines {
+    color: rgb(98, 0, 255);
+    font-size: large;
+}
 
- }
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
+    background-image: linear-gradient(45deg, rgb(172, 172, 244), rgb(111, 162, 194));
 
- .block2 {
-     box-sizing: border-box;
-     width: 240px;
-     border-radius: 8px;
-     padding: 15px;
-     display: flex;
-     /* overflow-x: scroll; */
-     background-color: aliceblue;
-     /* background: fixed rgb(255, 206, 122); */
-     background-image: linear-gradient(-90deg,rgb(167, 167, 255),white,rgb(255, 167, 255));
-    
-     gap: 15px;
+}
 
- }
+.block {
+    max-width: 100%/3;
+    margin: 5px;
+    height: 280px;
+    border-radius: 25px;
+    overflow-x: scroll;
+    display: flex;
+    padding: 15px;
+    padding-right: 20px;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 25px;
+    gap: 15px;
+    border: transparent;
+}
+
+.block .items1 {
+    flex: 0 0 85%;
+    color: white;
+    width: 180;
+    padding: 24px;
+    border-radius: 12px;
+    scroll-snap-align: start;
+    background-image: linear-gradient(45deg, rgb(0, 30, 255), rgb(0, 242, 255));
+
+}
+
+.block .items2 {
+    flex: 0 0 85%;
+    color: white;
+    width: 180;
+    padding: 24px;
+    border-radius: 12px;
+    scroll-snap-align: start;
+    background-image: linear-gradient(45deg, rgb(48, 1, 103), rgb(255, 0, 149));
+
+}
+
+.block .items3 {
+    flex: 0 0 85%;
+    color: white;
+    width: 180;
+    padding: 24px;
+    border-radius: 12px;
+    scroll-snap-align: start;
+    background-image: linear-gradient(145deg, rgb(1, 90, 47), rgb(100, 253, 161));
+
+}
+
+.block .items4 {
+    flex: 0 0 85%;
+    color: white;
+    width: 180;
+    padding: 24px;
+    border-radius: 12px;
+    scroll-snap-align: start;
+    background-image: linear-gradient(145deg, rgb(255, 0, 212), rgb(255, 0, 72));
+
+}
+
+.block .items5 {
+    flex: 0 0 85%;
+    color: white;
+    width: 180;
+    padding: 24px;
+    border-radius: 12px;
+    scroll-snap-align: start;
+    background-image: linear-gradient(145deg, rgb(0, 255, 72), rgb(222, 255, 73));
+
+}
+
+.h3h {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.BGMI {
+    width: 100%;
+}
+
+.Space {
+    width: 100%;
+    height: 400px;
+    background-color: transparent;
+}
+
+.Space_i {
+    width: 100%;
+    height: 120px;
+    background-color: transparent;
+}
+
+.wallpaper {
+    height: 500px;
+    background-image: url("res/a2.jpg");
+    background-size: 100% 100%;
+}
+
+.index-body {
+    background-image: linear-gradient(45deg, rgb(172, 172, 244), rgb(111, 162, 194));
+}
 
 
- .block1 .items1 {
-     flex: 0 0 85%;
-     color: white;
-     width: 180;
-     padding: 24px;
-     border-radius: 12px;
-     scroll-snap-align: start;
-     background-image: linear-gradient(180deg, blue, rgb(0, 234, 255));
-
- }
-
- .block2 .items2 {
-     flex: 0 0 85%;
-     width: 180;
-     color: white;
-     padding: 24px;
-     border-radius: 12px;
-     padding-right: 25px;
-     background-image: linear-gradient(180deg, rgb(0, 255, 115), rgb(0, 255, 123), rgb(1, 82, 9));
-
- }
-
- .block1 .items3 {
-     flex: 0 0 85%;
-     width: 180;
-     color: white;
-     padding: 24px;
-     border-radius: 12px;
-     scroll-snap-align: start;
-     background-image: linear-gradient(180deg, blue, rgb(255, 1, 43));
-
- }
-.linksUnder{
+.linksUnder {
     color: blanchedalmond;
 }
-.menu1{
+
+.menu1 {
     width: 25px;
-    
+
 }
+
 .dropbtn {
     background-color: #b9b9b9;
     padding: 16px;
     font-size: 16px;
     border: none;
-    cursor: pointer; 
-   
-  }
-  
-  .dropbtn:hover, .dropbtn:focus {
+    cursor: pointer;
+
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
     background-color: #2980B9;
-   
-  }
-  
-  .dropdown {
-    
+
+}
+
+.dropdown {
+
     width: 100%;
-    
-  }
-  
-  .dropdown-content {
+
+}
+
+.dropdown-content {
     display: none;
-    position:relative;
+    position: relative;
     background-color: #00000000;
-   
+
     overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    
-  }
-  
-  .dropdown-content a {
+
+}
+
+.dropdown-content a {
     color: rgb(255, 255, 255);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: center;
     position: static;
-    
-  }
-  .dropdown a:hover {background-color: rgb(96, 110, 107);}
-  .show {display: block;
 
 }
-/* index content */
-.h1-1{
-    color: #000000a8;
-    text-align: center;
-    
+
+.dropdown a:hover {
+    background-color: rgb(96, 110, 107);
 }
-.h1-2{
-    color: rgb(255, 255, 255);
-    box-sizing: border-box;
-    width: 150px;
-    padding: 10px;
+
+.show {
     display: block;
-    border-radius: 5px;
-    background-color: rgb(252, 252, 252);
-    background-image: linear-gradient(45deg,indigo,blue);
+
 }
-.C_all{
-    width: 100%;
-    bottom: 0;
-    height: auto;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-   
+
+/* index content */
+.h1-1 {
+    color: #000000dd;
+    position: absolute;
+    right: 10px;
+    margin-top: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 10px;
+
 }
-.C1{
-    box-sizing: border-box;
-    width: 59%;
-   float: left;
-   font-size: large;
-   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   text-indent: 50px;
-   line-height: 25px;
-   margin-right: 1%;
-   text-align: justify;
- 
-    }
-.C2{
-    /* image project */
-    box-sizing: border-box;
-    width: 40%;
-    display: inline-block;
-    padding: 10px;
-    background-color: aliceblue;
-    background-image: url("res/project_img.jpg");
-    background-size:100% 100%;
-    height: 400px;
-    border-radius: 25px;
+
+.h1-2 {
+    color: #001effdd;
+    text-align: center;
+    margin-top: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    padding-top: 10px;
 }
-  .dropbtn2 {
+
+.C {
+    font-size: 120%;
+    color: rgba(0, 0, 0, 0.798);
+    font-style: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-indent: 50px;
+    line-height: 150%;
+    margin: 1%;
+}
+
+.dropbtn2 {
+    display: grid;
     color: white;
     background-color: #b9b9b9;
     padding: 16px;
     font-size: large;
     font-style: bold;
     border: none;
-    border-radius: 7px;
-    background-image: linear-gradient(45deg,indigo,blue);
-    cursor: pointer; 
-   
-  }
-  
-  .dropbtn2:hover, .dropbtn2:focus {
-    background-image: linear-gradient(45deg,rgb(0, 123, 255),#3b3bfb);
-   
-  }
-  
-  .dropdown2 {
-    
+    border-radius: 25px;
+    background-image: linear-gradient(45deg, indigo, blue);
+    cursor: pointer;
+
+}
+
+.dropbtn2:hover,
+.dropbtn2:focus {
+    background-image: linear-gradient(45deg, rgb(0, 123, 255), #3b3bfb);
+
+}
+
+.dropdown2 {
     width: 100%;
-    
-  }
-  
-  .dropdown-content-new {
+}
+
+.dropdown-content-new {
     display: none;
-    position:relative;
+    position: relative;
     background-color: #91000000;
-   
+
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    
-  }
-  
-  .dropdown-content-new a {
-    color: rgb(255, 255, 255);  
-    background-image: linear-gradient(45deg,indigo,blue);
-    padding: 12px 16px;
-    text-decoration: none;
-    display: inline-block;
-    text-align: center;
-    position: static;
-    border-radius: 50px;
-    margin-top: 5px;
-    margin-right: 5px;
-    
-  }
-  .dropdown2 a:hover {
-    background-image: linear-gradient(45deg,rgb(0, 123, 255),#3b3bfb);
-    color: rgb(255, 255, 255);  }
-  .show {display: block;
 
 }
+
+
+.dropdown2 a:hover {
+    background-image: linear-gradient(45deg, rgb(0, 123, 255), #3b3bfb);
+    color: rgb(255, 255, 255);
+}
+
+.show {
+    display: block;
+
+}
+
+.pp {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+}
+
+.C3 {
+    max-width: 100%/3;
+    /* box-sizing: border-box; */
+    color: red;
+    /* background-color: #2980B9; */
+    background-image: url("res/Android-Projects-Logo.png");
+    margin: 4px;
+    background-size: 100% 100%;
+    height: 200px;
+    border-radius: 25px;
+}
+
+.C4 {
+    max-width: 100%/3;
+    /* box-sizing: border-box; */
+    color: red;
+    /* background-color: #2980B9; */
+    background-image: url("res/web-projects-logo.png");
+    background-size: 100% 100%;
+    margin: 4px;
+    height: 200px;
+    border-radius: 25px;
+}
+
+.C5 {
+    /* max-width: 100%/3; */
+    /* box-sizing: border-box; */
+    color: red;
+    /* background-color: #2980B9; */
+    background-image: url("res/desktop-project-logo.png");
+    background-size: 100% 100%;
+    margin: 4px;
+    height: 200px;
+    border-radius: 25px;
+}
+
+/* android button */
+.dropbtn_Android {
+    display: inline-block;
+    color: white;
+    background-color: #b9b9b9;
+    padding: 12px 16px;
+    margin: 2px;
+    /* font-size: large; */
+    font-style: bold;
+    border: none;
+    border-radius: 25px;
+    background-image: linear-gradient(45deg, rgb(149, 0, 255), rgb(255, 0, 0));
+    cursor: pointer;
+
+}
+
+.dropbtn_Android:hover,
+.dropbtn_Android:focus {
+    background-image: linear-gradient(45deg, rgb(0, 123, 255), #3b3bfb);
+
+}
+
+.dropdown3 {
+
+    width: 100%;
+
+}
+
+.dropdown-content-android {
+    display: none;
+    position: relative;
+    background-color: #91000000;
+
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+}
+
+.web-img {
+    width: 400px;
+    float: right;
+    padding-top: 0;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.dropdown-content-android h2,
+.dropdown-content-desktop h2,
+.dropdown-content-web h2 {
+    color: rgb(255, 0, 0);
+    padding: 12px 16px;
+    text-decoration: underline;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.dropdown-content-android p,
+.dropdown-content-android li,
+.dropdown-content-desktop p,
+.dropdown-content-desktop li,
+.dropdown-content-web p,
+.dropdown-content-web li {
+    margin: 5px;
+    font-family: cursive;
+    list-style: circle;
+}
+
+.dropdown-content-android img {
+    width: 200px;
+    float: right;
+}
+
+.dropdown-content-android h3,
+.dropdown-content-desktop h3,
+.dropdown-content-web h3 {
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+
+.dropdown3 .aw:hover {
+    background-image: linear-gradient(45deg, rgb(0, 123, 255), #3b3bfb);
+    color: rgb(255, 255, 255);
+}
+
+.show1 {
+    display: block;
+
+}
+
+.dropbtn_desktop {
+    padding: 12px 16px;
+    margin: 2px;
+    display: inline-block;
+    color: white;
+    background-color: #b9b9b9;
+    border-radius: 25px;
+    font-style: bold;
+    border: none;
+    background-image: linear-gradient(45deg, rgb(149, 0, 255), rgb(255, 0, 0));
+    cursor: pointer;
+
+}
+
+.desktop-img {
+    width: 200px;
+    float: right;
+    padding-top: 0;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.dropbtn_desktop:hover,
+.dropbtn_desktop:focus {
+    background-image: linear-gradient(45deg, rgb(0, 123, 255), #3b3bfb);
+
+}
+
+.dropdown4 {
+
+    width: 100%;
+
+}
+
+.dropdown-content-desktop {
+    display: none;
+    position: relative;
+    background-color: #91000000;
+
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+}
+
+.show1 {
+    display: block;
+
+}
+
+/* web button */
+.dropbtn_web {
+    padding: 12px 16px;
+    margin: 2px;
+    color: white;
+    display: inline-block;
+    background-color: #b9b9b9;
+    font-style: bold;
+    border: none;
+    border-radius: 25px;
+    background-image: linear-gradient(45deg, rgb(149, 0, 255), rgb(255, 0, 0));
+    cursor: pointer;
+
+}
+
+.dropbtn_web:hover,
+.dropbtn_web:focus {
+    background-image: linear-gradient(45deg, rgb(0, 123, 255), #3b3bfb);
+
+}
+
+.dropdown5 {
+
+    width: 100%;
+
+}
+
+.dropdown-content-web {
+    display: none;
+    position: relative;
+    background-color: #91000000;
+
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+}
+
+.show1 {
+    display: block;
+
+}
+
+.water {
+    background-image: url("res/water-backgroung.jfif");
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+}
+
+/* ------------------------------------------------------------------------------------------------- */
+/* about.html page here */
+.about-class {
+    background-image: linear-gradient(90deg, blue, rgb(200, 0, 255));
+    /* background-image: url("res/Software-Engineer.png");
+    background-size: 100% 100%; */
+}
+
+.Space_a {
+    width: 100%;
+    background-color: transparent;
+}
+
+.about-class h1 {
+    color: white;
+    margin-top: 0;
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.about-class p {
+    color: white;
+    font-size: 150%;
+    font-style: italic;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* ---------------------------------------------------------------- */
