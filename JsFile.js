@@ -34,7 +34,7 @@ window.onclick = function(event) {
 }
 
 function myFun_for_android() {
-  document.getElementById("myproject-android").classList.toggle("show1");
+  document.getElementById("myproject-android").classList.toggle("show");
 }
 
 // Close the dropdown if the user clicks outside of it
@@ -44,14 +44,14 @@ window.onclick = function(event) {
     var i;
     for (i = 0; i < dropdowns.length; i++) {
       var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show1')) {
-        openDropdown.classList.remove('show1');
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
       }
     }
   }
 }
 function myFun_for_web() {
-  document.getElementById("myproject-web").classList.toggle("show1");
+  document.getElementById("myproject-web").classList.toggle("show");
 }
 
 // Close the dropdown if the user clicks outside of it
@@ -61,14 +61,14 @@ window.onclick = function(event) {
     var i;
     for (i = 0; i < dropdowns.length; i++) {
       var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show1')) {
-        openDropdown.classList.remove('show1');
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
       }
     }
   }
 }
 function myFun_for_desktop() {
-  document.getElementById("myproject-desktop").classList.toggle("show1");
+  document.getElementById("myproject-desktop").classList.toggle("show");
 }
 
 // Close the dropdown if the user clicks outside of it
@@ -78,8 +78,8 @@ window.onclick = function(event) {
     var i;
     for (i = 0; i < dropdowns.length; i++) {
       var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show1')) {
-        openDropdown.classList.remove('show1');
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
       }
     }
   }
